@@ -60,6 +60,10 @@ Windows Local Security Authority in addition to browser fingerprinting.
 | Time (relative) | Packet | Event |
 |---|---|---|
 | 0.000s | 1 | Capture begins |
+| 2.35s | 72 | Windows connectivity check (msftconnecttest.com) |
+| 2.40s | 74 | Internet confirmed — machine is online |
+| 94.6s | 23861 | Chrome opens — time sync with clients2.google.com |
+| 95.3s | 24500 | FIRST C2 contact — whitepepper.su |
 | Before 24500 | <24500 | Initial HTTP activity — infection vector |
 | 95.344s | 24500 | GET /api/set_agent — C2 registration |
 | 96.287s | 24601 | POST /api/set_agent — fingerprint exfiltration (8,023 bytes) |
