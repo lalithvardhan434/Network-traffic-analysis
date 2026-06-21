@@ -146,6 +146,8 @@ network-traffic-analysis/
     ├── wireshark-conversations-lumma.png
     ├── wireshark-dns-2025.png
     └── wireshark-dns-responses-2025.png
+    └── wireshark-pre-infection-traffic.png
+
 ```
 
 ---
